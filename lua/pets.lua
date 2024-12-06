@@ -41,7 +41,7 @@ function M.setup(options)
     }
     if M.options.popup.avoid_statusline then
         local hl = utils.parse_popup_hl(M.options.popup.hl)
-        popup_opts.position.row = "99%"
+        popup_opts.position.row = "98%"
         popup_opts.win_options = { winhighlight = hl }
     end
     M.options.popup = popup_opts
